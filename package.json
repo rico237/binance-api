@@ -2,7 +2,7 @@
   "name": "binance-api-aziz",
   "version": "0.1.0",
   "description": "Une application Express avec node-js afin d'afficher le solde du compte binance de mon collaborateur Aziz.",
-  "main" : "start.js",
+  "main": "start.js",
   "scripts": {
     "start": "node start.js"
   },
@@ -10,7 +10,7 @@
     "node-binance-api": "^0.4.22",
     "express": "4.16.2"
   },
-   "keywords": [
+  "keywords": [
     "node",
     "heroku",
     "express",
