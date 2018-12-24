@@ -29,7 +29,6 @@ app.get('/allOrders/:symbol', function (req, res){
 app.get('/allAssets', function(req, res){
   binance.balance((error, balances) => {
     console.log("balances()", balances);
-    console.log("ETH balance: ", balances.ETH.available);
   });
 })
 
