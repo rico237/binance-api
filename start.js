@@ -5,8 +5,8 @@ const binance = require('node-binance-api');
 var port = process.env.PORT || 8080;
 
 binance.options({
-  APIKEY: 'vAqNUT1AZoFyiYQmRUYxLqbjaZqH8xkaiOvonVOuslkHwWHozr7qC4epJviWm4RU',
-  APISECRET: 'FQy35at2gYB0aMhw4riq39atluQ6Rhja2VcgpyUv4zQXLpfJG0EouLq6Yo1TO4OO',
+  APIKEY: '',
+  APISECRET: '',
   useServerTime: true, // If you get timestamp errors, synchronize to server time at startup
   test: true // If you want to use sandbox mode where orders are simulated
 });
